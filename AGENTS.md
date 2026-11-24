@@ -26,3 +26,6 @@ Módulo de reto 0 desarrollado en FastAPI con autenticación y almacenamiento en
 - No hacer commit ni push: los realiza el desarrollador.
 
 ## Lecciones aprendidas
+- Las contraseñas se guardan siempre con hash criptográfico, nunca en texto plano.
+- En endpoints de modificación o eliminación, siempre verificar que el registro pertenezca al usuario de la sesión.
+- Validar siempre en el servidor los campos obligatorios, longitud y contenido antes de almacenar datos.
