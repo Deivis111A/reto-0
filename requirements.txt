@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+jinja2
+pytest
+httpx
+ruff
+pre-commit
+python-dotenv
+passlib
